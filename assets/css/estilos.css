@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 100px;
+}
+
+/* Formulario */
+
+#preview {
+  height: 200px;
+  background-image: url(../imgs/lion.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* Tabla de Participantes */
+
+#Animales {
+  height: 100%;
+  background: #f0f0f0;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+#Animales div >div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+/* Modal */
+
+.modal-dialog{
+    max-width: 85% !important;
+}
+
+/* styles.css */
+
+/* styles.css */
+
+
+
+
+
+/* estilos.css */
+
+.animal-img {
+  /* Estilos para las imágenes de los animales */
+  width: 150px; /* Tamaño deseado */
+  height: 150px; /* Tamaño deseado */
+  object-fit: cover; /* Ajustar la imagen al contenedor sin distorsionarla */
+  margin-bottom: 10px; /* Espacio entre las imágenes */
+}
+
+
+.fa-volume-up {
+  /* Estilos para el icono de parlante */
+  font-size: 24px; /* Tamaño del icono */
+  color: rgb(0, 0, 0); /* Color del icono (puedes cambiarlo según tus preferencias) */
+  margin-top: 5px; /* Espacio entre la imagen y el icono */
+}
+
